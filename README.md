@@ -1,5 +1,15 @@
 # 🎓 AI Campus OS — Stage 3 (Real RAG App)
 
+<div align="center">
+
+### 🔗 [**Try the Live Demo →**](https://ai-campus-app-teal.vercel.app/)
+
+*Upload a PDF and chat with it — running live on Vercel.*
+
+</div>
+
+---
+
 A real **Chat-with-your-PDF** app: upload a PDF → the AI reads it → ask questions → get answers grounded in *your* document, with citations. Built with Next.js 16 + TypeScript + Tailwind + Google Gemini.
 
 ## 🚀 Run it in 3 steps
@@ -57,6 +67,5 @@ Ask a question
 - Free tier has rate limits — if you see a `429` error, wait a minute and retry.
 
 ## 🔜 Next steps
-- Persist vectors to a database, add user accounts (Firebase Auth)
-- Port the full dashboard UI (Notes, Quiz, Mind Maps) on top of this RAG core
-- Deploy to Vercel
+- Add user accounts (Firebase Auth) so each student has a private library
+- Port the full dashboard UI (Mind Maps, Exam Predictor) on top of this RAG core
